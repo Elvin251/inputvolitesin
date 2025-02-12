@@ -1,0 +1,82 @@
+
+/* body{
+    background-color: black;
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+    form{
+    width: 30vw;
+    padding: 50px;
+    background-color: rgb(0, 0, 255);
+    margin: 50px auto;
+    border-radius: 15px ;
+    box-shadow: 10px 8px rgb(96, 96, 186,0.3);
+    }
+    
+    input{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    }
+    input{
+    padding: 15px;
+    border-radius: 15px;
+    }
+    p{
+    
+    text-align: center;
+    color: red;} */
+  
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f8f9fa;
+    }
+    .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 350px;
+    }
+    input {
+        width: 100%;
+        padding: 8px;
+       
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .message {
+        color: green;
+        display: none;
+    }
+    #submitBtn {
+        margin-top: 30px;
+        background: blue;
+        color: white;
+        padding: 10px;
+        border: none;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+   
+    .unsuccess{
+        color: red;
+        display: none;
+    }
+  
+   
+  

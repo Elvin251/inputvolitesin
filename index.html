@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+<!-- <form action="">
+
+<input type="text" id="username" placeholder="username" minlength="4">
+<p>uzunluqu  en azi4 olmalidir</p>
+<input type="number" id="age" placeholder="userage" min="18" max="60" >
+<p> yas  18 ve 60 arasida olmalidir</p>
+<input type="password" id="password" placeholder="password" minlength="9" >
+<p>uzunluqu en azi 9 olmalidir</p>
+<input type="text" id="finkod" placeholder="Fin-kod" minlength="7" maxlength="7" >
+<p>uzunluqu 7 di olmalidir olmalidir</p>
+<input type="email" id="email" placeholder="gmail" >
+<p>gmail qaydasina uyqun et</p>
+<input type="password" id="num" placeholder="phone-num" minlength="13" maxlength="13">
+<p>uzunluqu 13  olmalidir</p>
+<button type="submit" onclick="sub()">Submit</button>
+</form> -->
+<div class="container">
+    <label>Email:</label>
+ <input type="email" id="email" placeholder="Emailinizi daxil edin" > 
+    <p class="p"></p>
+    <label>Ad:</label>
+ 
+ <input type="text" id="name" placeholder="Adınızı daxil edin" minlength="2"> 
+    <p class="p"></p>
+    <label>Yaş:</label>
+   
+    <input type="number" id="age" placeholder="Yaşınızı daxil edin" min="16"   >
+    <p class="p"></p>
+    <button  id="submitBtn" onclick="add()">Təsdiq et</button>
+    <p id="unsuccess"  class="unsuccess">Qeydiyyat uğurlu deyil! </p>
+    <p class="message" id="successMessage">Qeydiyyat uğurludur!</p>
+</div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
