@@ -30,6 +30,11 @@
   
 
 
+
+
+
+
+
 let inputs = document.querySelectorAll("input");
 inputs.forEach(input => {
 input.addEventListener("input", () => {
@@ -44,10 +49,7 @@ input.nextElementSibling.style.color="blue"
 
 });
 });
-
-
-
-
+let arr = [];
 function add() {
     let a =0 ;
     document.getElementById("successMessage").style.display = "none";
@@ -62,6 +64,26 @@ input.forEach(input => {
 });
     if (a==3) {
         document.getElementById("successMessage").style.display = "block";
+    
+        
+        let form = document. querySelector("form");
+        
+        form.addEventListener("submit", (event)=>{
+        event. preventDefault();
+        
+        let obj={
+        email: inputs[0].value,
+        userName: inputs[1].value,
+        userAge: inputs[2].value,
+        userId: arr.length + 1
+        }
+        arr.push(obj);
+        
+        console.log(arr);
+        form.reset()
+        })
+      
+       
     } else {
         document.getElementById("unsuccess").style.display = "block";  
     }
