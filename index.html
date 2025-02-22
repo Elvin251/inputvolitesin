@@ -1,48 +1,41 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-<!-- <form action="">
+    <form action="">
+  
 
-<input type="text" id="username" placeholder="username" minlength="4">
-<p>uzunluqu  en azi4 olmalidir</p>
-<input type="number" id="age" placeholder="userage" min="18" max="60" >
-<p> yas  18 ve 60 arasida olmalidir</p>
-<input type="password" id="password" placeholder="password" minlength="9" >
-<p>uzunluqu en azi 9 olmalidir</p>
-<input type="text" id="finkod" placeholder="Fin-kod" minlength="7" maxlength="7" >
-<p>uzunluqu 7 di olmalidir olmalidir</p>
-<input type="email" id="email" placeholder="gmail" >
-<p>gmail qaydasina uyqun et</p>
-<input type="password" id="num" placeholder="phone-num" minlength="13" maxlength="13">
-<p>uzunluqu 13  olmalidir</p>
-<button type="submit" onclick="sub()">Submit</button>
-</form> -->
-<form>
-    <label>Email:</label>
- <div class="div"> <input type="email" id="email" placeholder="Emailinizi daxil edin" > 
-    <p class="p"></p></div>
-    <label>Ad:</label>
- 
-<div class="div"> <input type="text" id="name" placeholder="Adınızı daxil edin" minlength="2"> 
-    <p class="p"></p></div>
-    <label>Yaş:</label>
-   
-   <div class="div"> <input type="number" id="age" placeholder="Yaşınızı daxil edin" min="16"   >
-    <p class="p"></p></div>
-    <button  id="submitBtn" onclick="add()">Təsdiq et</button>
-    <p id="unsuccess"  class="unsuccess">Qeydiyyat uğurlu deyil! </p>
-    <p class="message" id="successMessage">Qeydiyyat uğurludur!</p>
-   </form>
-<div class="container2">
+  <div>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" minlength="2">
+    <i class="bi bi-x"></i>
+  </div>
+  <div>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" min="16" >
+    <i class="bi bi-x"></i>
+  </div>
+  <button type="submit" >SUBMİT</button>
+    </form>
 
-</div>
+<table border="1" >
+  <thead>
+    <tr>
+      <td>user İD</td>
+      <td>Username</td>
+      <td>Userage</td>
+      <td>Delete</td>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
     <script src="./app.js"></script>
 </body>
 </html>
